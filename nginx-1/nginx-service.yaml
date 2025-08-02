@@ -9,6 +9,6 @@ spec:
     app: nginx
   ports:
     - protocol: TCP
-      port: 80 # The port the Service exposes
+      port: 8080 # The port the Service exposes
       targetPort: 80 # The port on the Pod to which the Service forwards traffic
   type: NodePort
